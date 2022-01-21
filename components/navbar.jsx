@@ -33,7 +33,7 @@ export default function Navbar() {
     <nav className="w-full grid justify-items-center">
       <div className="text-indigo-500 flex items-center mt-3 px-2 justify-end md:w-10/12 gap-4 w-full">
         {social.map((social, index) => (
-          <a href={social.href} key={index} target="_blank">
+          <a href={social.href} key={index} target="_blank" rel="noreferrer">
             <Icon name={social.icon} />
           </a>
         ))}

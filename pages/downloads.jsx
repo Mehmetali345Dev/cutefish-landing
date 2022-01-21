@@ -44,7 +44,7 @@ export default function Downloads() {
             </h2>
             <p className="md:w-4/6 text-lg text-white">
               Ubuntu is Debian based, easy to use distro. Try out Cutefish DE
-              with Ubuntu Linux.
+              with Ubuntu.
             </p>
             <a
               href="https://cutefish-ubuntu.github.io/"

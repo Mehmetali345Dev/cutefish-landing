@@ -64,7 +64,7 @@ export default function Layout({ children }) {
       </Head>
       <div className="flex flex-col items-center w-full">
         <Navbar className="w-full" />
-        <div className="flex justify-center w-full min-h-screen">
+        <div className="flex justify-center py-8 w-full min-h-screen">
           <main className="h-full w-full">{children}</main>
         </div>
       </div>

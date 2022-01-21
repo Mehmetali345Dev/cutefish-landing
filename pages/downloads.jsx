@@ -2,7 +2,7 @@ import Image from "next/image";
 import Icon from "../components/icon";
 export default function Downloads() {
   return (
-    <div class="flex flex-col gap-3 items-center w-full">
+    <div className="flex flex-col gap-3 items-center w-full">
       <h1 className="font-bold text-3xl">
         Download CutefishOS or flavours of it
       </h1>

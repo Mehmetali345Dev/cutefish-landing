@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-3 items-center w-full">
+    <div className="flex flex-col gap-3 text-center items-center w-full">
       <motion.h1
         animate={{ y: 100, opacity: 1 }}
         initial={{ opacity: 0 }}
@@ -13,14 +13,14 @@ export default function Hero() {
           <motion.span className="text-indigo-600">Cutefish</motion.span>
         </h1>
       </motion.h1>
-      <motion.h2
+      <motion.p
         initial={{ opacity: 0 }}
         animate={{ y: 100, opacity: 1 }}
         transition={{ delay: 0.7 }}
         className="text-lg"
       >
         Focus on simplicity, beauty and practicality
-      </motion.h2>
+      </motion.p>
 
       <motion.div
         animate={{ y: 100, opacity: 1 }}

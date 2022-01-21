@@ -17,6 +17,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ y: 100, opacity: 1 }}
         transition={{ delay: 0.7 }}
+        className="text-lg"
       >
         Focus on simplicity, beauty and practicality
       </motion.h2>

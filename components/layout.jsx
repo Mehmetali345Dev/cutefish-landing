@@ -1,7 +1,6 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Head from "next/head";
-import Resume from "./resume";
 import 'animate.css'
 
 export default function Layout({ children }) {
@@ -10,7 +9,7 @@ export default function Layout({ children }) {
       <Head>
         <title>CutefishOS</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"

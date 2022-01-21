@@ -29,7 +29,7 @@ export default function Hero() {
         <img
           src="desktop2.png"
           alt="cutefish"
-          className="w-96 rounded-md"
+          className="rounded-md"
         />
       </motion.div>
     </div>

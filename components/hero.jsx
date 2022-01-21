@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import Link from "next/link";
 export default function Hero() {
   return (
     <div className="flex flex-col gap-3 items-center w-full">
@@ -27,11 +27,10 @@ export default function Hero() {
         initial={{ y: 200, opacity: 0 }}
         transition={{ delay: 1 }}
       >
-        <img
-          src="desktop2.png"
-          alt="cutefish"
-          className="rounded-md"
-        />
+        <img src="desktop2.png" alt="cutefish" className="rounded-md" />
+        <div className="text-lg bg-indigo-600 px-8 text-center text-white rounded-md py-4 mb-4 font-bold">
+          <Link href="/downloads">Try Now!</Link>
+        </div>
       </motion.div>
     </div>
   );

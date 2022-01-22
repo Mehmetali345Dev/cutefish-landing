@@ -8,7 +8,7 @@ export default function Apps() {
           users experience a unified UI / UX experience in their daily use.
         </p>
       </div>
-      <img src="/apps.svg" className="md:w-3/6 " />
+      <img src="/apps.png" className="md:w-3/6 w-full " />
     </div>
   );
 }

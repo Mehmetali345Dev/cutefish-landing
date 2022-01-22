@@ -40,8 +40,8 @@ export default function Footer() {
       <div className="grid gap-3">
         <h1 className="font-bold text-indigo-500 text-2xl">CutefishOS</h1>
         {links.map((link, index) => (
-          <div className=" font-bold text-lg text-indigo-400">
-            <Link href={link.href} key={index}>
+          <div key={index} className=" font-bold text-lg text-indigo-400">
+            <Link href={link.href}>
               {link.name}
             </Link>
           </div>
@@ -61,8 +61,8 @@ export default function Footer() {
       <div className="grid gap-3">
         <h1 className="font-bold text-indigo-500 text-2xl">CutefishOS</h1>
         {socials.map((social, index) => (
-          <div className=" font-bold text-lg text-indigo-400">
-            <Link href={social.href} key={index}>
+          <div key={index} className=" font-bold text-lg text-indigo-400">
+            <Link href={social.href}>
               {social.name}
             </Link>
           </div>

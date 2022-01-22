@@ -67,6 +67,7 @@ export default function Layout({ children }) {
         <div className="flex justify-center py-8 w-full min-h-screen">
           <main className="h-full w-11/12 md:w-full">{children}</main>
         </div>
+        <Footer className="w-full" />
       </div>
     </>
   );

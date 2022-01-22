@@ -28,9 +28,11 @@ export default function Hero() {
         transition={{ delay: 1 }}
       >
         <img src="desktop2.png" alt="cutefish" className="rounded-md" />
-        <div className="text-lg bg-indigo-600 px-8 text-center text-white rounded-md py-4 mb-4 font-bold">
-          <Link href="/downloads">Try Now!</Link>
-        </div>
+        <Link href="/downloads">
+          <div className="text-lg bg-indigo-600 px-8 text-center w-full text-white rounded-md py-4 mb-4 font-bold">
+            Try Now!
+          </div>
+        </Link>
       </motion.div>
     </div>
   );

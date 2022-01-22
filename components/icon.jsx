@@ -1,4 +1,4 @@
-import { GithubLogo, TwitterLogo, Download } from "phosphor-react";
+import { GithubLogo, TwitterLogo, Download, DiscordLogo } from "phosphor-react";
 export default function Icon(props) {
   return (
     <div>
@@ -17,6 +17,13 @@ export default function Icon(props) {
         />
       )}
       {props.name === "download" && <Download size={32} weight="fill" />}
+      {props.name === "discord" && (
+        <DiscordLogo
+          size={20}
+          weight="fill"
+          className="transition-all ease-in-out duration-200 hover:text-blue-600"
+        />
+      )}
     </div>
   );
 }

@@ -1,14 +1,13 @@
-import Image from "next/image";
 import Icon from "../components/icon";
 export default function Downloads() {
   return (
-    <div className="flex flex-col gap-3 items-center w-full">
+    <div className="flex flex-col gap-3 items-center">
       <h1 className="font-bold text-3xl">
         Download CutefishOS or flavours of it
       </h1>
 
-      <div className="grid gap-3 ">
-        <div className="rounded-md from-indigo-500 bg-gradient-to-r  text-white px-8 md:flex grid items-center justify-between md:px-32 py-8">
+      <div className="grid gap-3 md:w-11/12 ">
+        <div className="rounded-md from-pink-300 to-indigo-500 bg-gradient-to-r  text-white px-8 md:flex grid items-center justify-between md:px-32 py-8">
           <div className="grid justify-items-start gap-3 flex-grow">
             <h2 className="text-3xl text-white font-bold">CutefishOS</h2>
             <p className="md:w-4/6 text-lg text-white">
@@ -21,7 +20,7 @@ export default function Downloads() {
                 rel="noreferrer"
                 className="flex items-center font-bold gap-3 bg-red-700 rounded-md px-8 py-2 "
               >
-                <Image src="/mega-logo.png" width="32" height="32" />
+                <img src="/mega-logo.png" width="32" height="32" />
                 MEGA
               </a>
               <a
@@ -30,12 +29,12 @@ export default function Downloads() {
                 rel="noreferrer"
                 className="flex items-center font-bold gap-3 bg-green-700 rounded-md px-8 py-2 "
               >
-                <Image src="/drive-logo.png" width="32" height={30} />
+                <img src="/drive-logo.png" width="32" height={30} />
                 Google Drive
               </a>
             </div>
           </div>
-          <Image src="/icon.png" width={200} height={200} />
+          <img src="/icon.png" className="md:w-64 mt-2 md:mt-0" />
         </div>
         <div className="rounded-md from-orange-500 to-indigo-500 bg-gradient-to-r  text-white px-8 md:flex grid items-center justify-between md:px-32 py-8">
           <div className="grid justify-items-start gap-3 flex-grow">
@@ -50,13 +49,13 @@ export default function Downloads() {
               href="https://cutefish-ubuntu.github.io/"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center font-bold gap-3 bg-orange-700 rounded-md px-8 py-2 "
+              className="flex items-center w-full md:w-max font-bold gap-3 bg-orange-700 rounded-md px-8 py-2 "
             >
               <Icon name="download" />
               Download
             </a>
           </div>
-          <Image src="/ubuntu-logo.png" width={200} height={200} />
+          <img src="/ubuntu-logo.png" className="md:w-64 mt-2 md:mt-0" />
         </div>
         <div className="rounded-md from-green-500 to-indigo-500 bg-gradient-to-r  text-white px-8 md:flex grid items-center justify-between md:px-32 py-8">
           <div className="grid justify-items-start gap-3 flex-grow">
@@ -71,13 +70,13 @@ export default function Downloads() {
               href="https://github.com/manjaro-cutefish/download"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center font-bold gap-3 bg-green-700 rounded-md px-8 py-2 "
+              className="flex items-center w-full md:w-max font-bold gap-3 bg-green-700 rounded-md px-8 py-2 "
             >
               <Icon name="download" />
               Download
             </a>
           </div>
-          <Image src="/manjaro-logo.png" width={200} height={200} />
+          <img src="/manjaro-logo.png" className="md:w-64 mt-2 md:mt-0" />
         </div>
       </div>
     </div>

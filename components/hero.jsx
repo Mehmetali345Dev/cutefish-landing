@@ -12,12 +12,11 @@ export default function Hero() {
         animate={{ y: 100, opacity: 1 }}
         initial={{ opacity: 0 }}
         transition={{ delay: 0.5 }}
-        className="text-5xl font-bold flex flex-col md:flex-row items-center
-        gap-2"
+        className="text-5xl font-bold flex flex-col md:flex-row items-center gap-2"
       >
         <Trans i18nKey="name">
-          Meet the
-          <span className="text-indigo-600">Cutefish</span>
+            Meet the
+            <span className="text-indigo-600">Cutefish</span>
         </Trans>
       </motion.h1>
       <motion.p

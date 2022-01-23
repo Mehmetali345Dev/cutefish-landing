@@ -1,4 +1,8 @@
+
+
 # CutefishOS Landing Page
+
+![](https://raw.githubusercontent.com/Mehmetali345Dev/cutefish-landing/main/preview.gif)
 
 A website for CutefishOS. Made with Next.js, Tailwind CSS, Framer Motion and i18Next
 

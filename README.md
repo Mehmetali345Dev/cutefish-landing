@@ -4,11 +4,10 @@ A website for CutefishOS. Made with Next.js, Tailwind CSS, Framer Motion and i18
 
 ### Features
 
-    - Internationalization with i18Next
-    - All of CSS work is made with Tailwind CSS
-    - Animations with Framer Motion
-    - Most of elements splitted to components
-
+- Internationalization with i18Next
+- All of CSS work is made with Tailwind CSS
+- Animations with Framer Motion
+- Most of elements splitted to components
 
 ## Getting Started
 

@@ -1,0 +1,20 @@
+{
+  "name": "<1>Cutefish</1> İle Tanışın",
+  "motto": "Basitlik, güzellik ve pratiklik",
+  "navbar": {
+    "home": "Ana Sayfa",
+    "about": "Hakkında",
+    "download": "İndir"
+  },
+  "try": "Bir Deneyin!",
+  "features": {
+    "apps": {
+      "title": "Muhteşem Uygulamalar",
+      "desc": "Kullanıcıların günlük kullanımlarında harika bir UI/UX deneyimi yaşamalarını sağlamak için özel uygulamalar geliştirdik."
+    },
+    "desktop": {
+      "title": "Cutefish Masaüstü",
+      "desc": "Cutefish masaüstü ortamı, Qt Quick ve bazı KDE temel çerçeveleri kullanılarak oluşturulmuş verimli, güzel ve modern bir masaüstü ortamıdır.      "
+    }
+  }
+}

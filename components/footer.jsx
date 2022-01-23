@@ -1,17 +1,22 @@
 import Link from "next/link";
 
+import { useTranslation } from "next-i18next";
+
 const links = [
   {
     name: "Home",
     href: "/",
+    key: "home",
   },
   {
     name: "About",
     href: "/about",
+    key: "about",
   },
   {
     name: "Downloads",
     href: "/downloads",
+    key: "download",
   },
 ];
 
@@ -35,15 +40,14 @@ const socials = [
 ];
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <div className="md:grid-cols-3 grid py-8 w-11/12 md:w-10/12 justify-items-center">
       <div className="grid gap-3">
         <h1 className="font-bold text-indigo-500 text-2xl">CutefishOS</h1>
         {links.map((link, index) => (
           <div key={index} className=" font-bold text-lg text-indigo-400">
-            <Link href={link.href}>
-              {link.name}
-            </Link>
+            <Link href={link.href}>{t(`navbar.${link.key}`)}</Link>
           </div>
         ))}
       </div>
@@ -62,9 +66,7 @@ export default function Footer() {
         <h1 className="font-bold text-indigo-500 text-2xl">CutefishOS</h1>
         {socials.map((social, index) => (
           <div key={index} className=" font-bold text-lg text-indigo-400">
-            <Link href={social.href}>
-              {social.name}
-            </Link>
+            <Link href={social.href}>{social.name}</Link>
           </div>
         ))}
       </div>

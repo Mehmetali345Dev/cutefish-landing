@@ -1,0 +1,20 @@
+{
+  "name": "Meet the <1>Cutefish</1>",
+  "motto": "Focus on simplicity, beauty and practicality",
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "download": "Download"
+  },
+  "try": "Try Now!",
+  "features": {
+    "apps": {
+      "title": "Awesome Apps",
+      "desc": "We have developed a special applications to ensure that users experience an awesome UI / UX experience in their daily use."
+    },
+    "desktop": {
+      "title": "Cutefish Desktop",
+      "desc": "Cutefish desktop environment is an efficient, beautiful, and modern desktop environment built using Qt Quick and some KDE basic frameworks."
+    }
+  }
+}

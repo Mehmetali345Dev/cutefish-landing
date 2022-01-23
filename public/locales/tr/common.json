@@ -16,5 +16,21 @@
       "title": "Cutefish Masaüstü",
       "desc": "Cutefish masaüstü ortamı, Qt Quick ve bazı KDE temel çerçeveleri kullanılarak oluşturulmuş verimli, güzel ve modern bir masaüstü ortamıdır.      "
     }
+  },
+  "downloads": {
+    "title": "CutefishOS'i veya türlerini indirin",
+    "button": "İndir",
+    "cutefish": {
+      "title": "CutefishOS",
+      "desc": "CutefishOS, Cutefish DE'ı denemek için en iyi işletim sistemidir ayrıca Debian tabanlı bir dağıtımdır."
+    },
+    "ubuntu": {
+      "title": "Ubuntu ile Cutefish DE",
+      "desc": "Ubuntu, kullanması kolay ve Debian tabanlı bir işletim sistemidir. Cutefish DE'ı Ubuntu ile deneyin. "
+    },
+    "manjaro": {
+      "title": "Manjaro ile Cutefish DE",
+      "desc": "Manjaro, kullanması kolay ve Debian tabanlı bir işletim sistemidir. Cutefish DE'ı Manjaro ile deneyin."
+    }
   }
 }

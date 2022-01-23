@@ -16,5 +16,21 @@
       "title": "Cutefish Desktop",
       "desc": "Cutefish desktop environment is an efficient, beautiful, and modern desktop environment built using Qt Quick and some KDE basic frameworks."
     }
+  },
+  "downloads": {
+    "title": "Download CutefishOS or flavours of it",
+    "button": "Download",
+    "cutefish": {
+      "title": "CutefishOS",
+      "desc": "CutefishOS is Debian based distro, and it is best OS for Cutefish DE."
+    },
+    "ubuntu": {
+      "title": "Cutefish DE with Ubuntu",
+      "desc": "Ubuntu is Debian based, easy to use distro. Try out Cutefish DE with Ubuntu."
+    },
+    "manjaro": {
+      "title": "Cutefish DE with Manjaro",
+      "desc": "Manjaro is Arch based, easy to use distro. Try out Cutefish DE with Manjaro."
+    }
   }
 }
